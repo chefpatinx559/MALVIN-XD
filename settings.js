@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~M0JEkLbR#xldwCzfsoMPCtkfn7FNqD_vrQldFZWrmI5JSEUhGYc4",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
@@ -56,7 +56,7 @@ ANTI_BAD: process.env.ANTI_BAD || "false",
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
@@ -83,7 +83,7 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 HEART_REACT: process.env.HEART_REACT || "false",
 // make this true or false for heart reactions only 
 
-OWNER_REACT: process.env.OWNER_REACT || "true",
+OWNER_REACT: process.env.OWNER_REACT || "false",
 // make it true or fasle for only react on owner msg only 
 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
@@ -92,7 +92,7 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
-AUTO_TYPING: process.env.AUTO_TYPING || "true",
+AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
@@ -107,7 +107,7 @@ FAKE_TYPING: process.env.FAKE_TYPING || "false",
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-DEV: process.env.DEV || "263714757857",
+DEV: process.env.DEV || "2250778638987",
 //replace with your whatsapp number       
  
 ANTI_VV: process.env.ANTI_VV || "true",
